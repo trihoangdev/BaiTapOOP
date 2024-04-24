@@ -14,6 +14,7 @@ namespace Bai1
             List<VingroupEmployee> employees = new List<VingroupEmployee>();
             bool option = true;
             int choice;
+            CreateFakeData(employees);
             while (option)
             {
                 Console.Clear();
@@ -161,7 +162,8 @@ namespace Bai1
                             if (emp is VincomEmployee)
                             {
                                 var empCast = (VincomEmployee)emp;
-                                ShowEmpInfo(empCast);
+                                if (empCast.CoefficientSalary == 3.99f)
+                                    ShowEmpInfo_1(empCast);
                             }
                         break;
                     case 10:
@@ -198,24 +200,24 @@ namespace Bai1
                     case 13:
                         //Xuất thông tin các nhân viên có thâm niên từ 10  năm trở lên ở VINCOM
                         foreach (var emp in employees)
-                            if(emp is VincomEmployee)
+                            if (emp is VincomEmployee)
                             {
                                 var empCast = (VincomEmployee)emp;
                                 if (CountYearAtVin(empCast.StartDate) > 10)
-                                    ShowEmpInfo(empCast);
-                            }    
-                           
+                                    ShowEmpInfo_1(empCast);
+                            }
+
                         break;
                     case 14:
                         // Xuất danh sách các nhân viên không đạt chỉ tiêu của nhân viên VINREAL
                         Console.WriteLine("Các nhân viên không đạt chỉ tiêu của nhân viên VINREAL");
                         foreach (var emp in employees)
-                            if(emp is VinrealEmployee)
+                            if (emp is VinrealEmployee)
                             {
                                 var empCast = (VinrealEmployee)emp;
                                 if (empCast.AwardVinreal == "Không đạt chỉ tiêu")
                                     ShowEmpInfo(emp);
-                            }    
+                            }
                         break;
                     default:
                         Console.WriteLine("Vui lòng chọn các chức năng trong [0-14]");
@@ -224,6 +226,34 @@ namespace Bai1
                 }
                 Console.ReadKey();
             }
+        }
+
+        private static void CreateFakeData(List<VingroupEmployee> employees)
+        {
+            //Tạo Data fake nhân viên sản xuất
+            employees.Add(new ManufactureEmployee(employees, "Hoàng Minh Trí", DateTime.ParseExact("06/01/2003", "dd/MM/yyyy", null), "Trần Phú, VT", true, "0792352701", DateTime.ParseExact("06/01/2024", "dd/MM/yyyy", null), 3.99f, 10));
+            employees.Add(new ManufactureEmployee(employees, "Vũ Lê Thanh", DateTime.ParseExact("12/01/1998", "dd/MM/yyyy", null), "Lê Hồng Phong, VT", false, "0955236201", DateTime.ParseExact("30/03/2022", "dd/MM/yyyy", null), 3f, 5));
+            employees.Add(new ManufactureEmployee(employees, "Hoàng Bảo Vi", DateTime.ParseExact("22/10/1977", "dd/MM/yyyy", null), "Nguyễn Văn Trỗi, VT", false, "0792350201", DateTime.ParseExact("06/05/2024", "dd/MM/yyyy", null), 4.2f, 7));
+            employees.Add(new ManufactureEmployee(employees, "Nguyễn Hồng Đào", DateTime.ParseExact("30/05/1999", "dd/MM/yyyy", null), "Nguyễn Tri Phương, VT", false, "0788352701", DateTime.ParseExact("06/03/2015", "dd/MM/yyyy", null), 6.2f, 4));
+            employees.Add(new ManufactureEmployee(employees, "Đào Thị Hồng Nhung", DateTime.ParseExact("12/12/2000", "dd/MM/yyyy", null), "Lê Lợi, VT", false, "0792352331", DateTime.ParseExact("08/05/2016", "dd/MM/yyyy", null), 2.12f, 6));
+            employees.Add(new ManufactureEmployee(employees, "Nguyễn Thiện Chí", DateTime.ParseExact("01/08/2004", "dd/MM/yyyy", null), "Lê Lợi, VT", true, "0792352991", DateTime.ParseExact("12/02/2019", "dd/MM/yyyy", null), 1.02f, 0));
+            employees.Add(new ManufactureEmployee(employees, "Hứa Kim Tuyền", DateTime.ParseExact("03/08/1978", "dd/MM/yyyy", null), "Trần Phú, VT", false, "0792352766", DateTime.ParseExact("24/01/2012", "dd/MM/yyyy", null), 6.25f, 9));
+            employees.Add(new ManufactureEmployee(employees, "Thân Văn Triệu", DateTime.ParseExact("06/06/1988", "dd/MM/yyyy", null), "Lê Hồng Phong, VT", true, "0792345701", DateTime.ParseExact("08/01/2014", "dd/MM/yyyy", null), 2.05f, 4));
+            employees.Add(new ManufactureEmployee(employees, "Nguyễn Anh Vũ", DateTime.ParseExact("30/04/2001", "dd/MM/yyyy", null), "30/4, VT", true, "0792352702", DateTime.ParseExact("16/07/2018", "dd/MM/yyyy", null), 3.25f, 7));
+
+            //Tạo Data fake nhân viên kinh doanh
+            employees.Add(new BussinessEmployee(employees, "Hoàng Minh Trí", DateTime.ParseExact("13/05/1999", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0556821478", DateTime.ParseExact("06/05/2015", "dd/MM/yyyy", null), 3.2f, 20000000, 19800000));
+            employees.Add(new BussinessEmployee(employees, "Vũ Minh Trí", DateTime.ParseExact("20/05/1998", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0556821668", DateTime.ParseExact("06/05/2020", "dd/MM/yyyy", null), 3.5f, 30000000, 49800000));
+            employees.Add(new BussinessEmployee(employees, "Hoàng Cẩm Ly", DateTime.ParseExact("04/05/2000", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0556827478", DateTime.ParseExact("06/05/2012", "dd/MM/yyyy", null), 3.99f, 26000000, 69800000));
+            employees.Add(new BussinessEmployee(employees, "Lê Văn Quân", DateTime.ParseExact("13/06/2005", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0556821038", DateTime.ParseExact("06/05/2018", "dd/MM/yyyy", null), 4f, 12000000, 19800000));
+            employees.Add(new BussinessEmployee(employees, "Phạm Thị Trang", DateTime.ParseExact("13/07/1985", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0522821478", DateTime.ParseExact("06/05/2019", "dd/MM/yyyy", null), 4.2f, 36000000, 20800000));
+            employees.Add(new BussinessEmployee(employees, "Phạm Đoan Trang", DateTime.ParseExact("07/05/1963", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0565821478", DateTime.ParseExact("06/05/2010", "dd/MM/yyyy", null), 6.2f, 30000000, 19800000));
+            employees.Add(new BussinessEmployee(employees, "Phạm Thế Nguyễn", DateTime.ParseExact("02/05/1975", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0577821478", DateTime.ParseExact("06/05/2005", "dd/MM/yyyy", null), 6.3f, 24000000, 66800000));
+            employees.Add(new BussinessEmployee(employees, "Chu Thế Vỹ", DateTime.ParseExact("13/01/1969", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0556821628", DateTime.ParseExact("06/05/2006", "dd/MM/yyyy", null), 3.1f, 30000000, 29800000));
+            employees.Add(new BussinessEmployee(employees, "Nguyễn Thế Trường", DateTime.ParseExact("13/08/1973", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0595821478", DateTime.ParseExact("06/05/2012", "dd/MM/yyyy", null), 2.8f, 30000000, 48800000));
+            employees.Add(new BussinessEmployee(employees, "Hoàng Văn An", DateTime.ParseExact("07/05/1983", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0556821658", DateTime.ParseExact("06/05/2018", "dd/MM/yyyy", null), 2.9f, 30000000, 29800000));
+            employees.Add(new BussinessEmployee(employees, "Hoàng Trọng Nhân", DateTime.ParseExact("05/05/1988", "dd/MM/yyyy", null), "Quận 3, HCM", true, "0558821478", DateTime.ParseExact("06/05/2017", "dd/MM/yyyy", null), 3f, 15700000, 25800000));
+        
         }
 
         //Phương thức tính thâm niên
@@ -268,6 +298,12 @@ namespace Bai1
         private static void ShowEmpInfo(VingroupEmployee vingroupEmployee)
         {
             vingroupEmployee.ShowEmpInfo_3();
+            Console.WriteLine("===============================");
+        }
+        //Phương thức hiển thị thông tin nhân viên
+        private static void ShowEmpInfo_1(VingroupEmployee vingroupEmployee)
+        {
+            vingroupEmployee.ShowEmpInfo_1();
             Console.WriteLine("===============================");
         }
 

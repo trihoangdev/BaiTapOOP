@@ -8,3 +8,13 @@ D:\BVU\OOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\obj\Debug\Bai1.pdb
 D:\BVU\OOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\bin\Debug\Newtonsoft.Json.dll
 D:\BVU\OOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\bin\Debug\Newtonsoft.Json.xml
 D:\BVU\OOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\obj\Debug\Bai1.csproj.CopyComplete
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\bin\Debug\Bai1.exe.config
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\bin\Debug\Bai1.exe
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\bin\Debug\Bai1.pdb
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\bin\Debug\Newtonsoft.Json.dll
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\bin\Debug\Newtonsoft.Json.xml
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\obj\Debug\Bai1.csproj.AssemblyReference.cache
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\obj\Debug\Bai1.csproj.CoreCompileInputs.cache
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\obj\Debug\Bai1.csproj.CopyComplete
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\obj\Debug\Bai1.exe
+D:\BVU\OOP\BaiTapTongHopOOP\Key_BAI_TAP_OOP_TONG_HOP\BAI_1\Bai1\Bai1\obj\Debug\Bai1.pdb
