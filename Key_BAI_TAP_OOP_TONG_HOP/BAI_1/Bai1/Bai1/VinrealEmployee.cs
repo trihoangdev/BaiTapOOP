@@ -49,25 +49,6 @@ namespace Bai1
 
        //Phương thức tính lương của nhân viên
         public int CalculateSalary() => (int)(TotalIncomeInMonth * 0.2);
-        /*
-        //Phương thức xuất thông tin nhân viên gồm: mã số, họ tên, địa chỉ, số điện thoại, email
-        public void ShowEmpInfo_1()
-        {
-            base.ShowEmpInfo_1();
-        }
-
-        //Phương thức xuất thông tin nhân viên gồm: mã số, họ tên, ngày sinh, địa chỉ, số điện thoại, email, thời gian vào làm 
-        public void ShowEmpInfo_2()
-        {
-            base.ShowEmpInfo_2();
-        }
-
-        //Phương thức xuất thông tin nhân viên gồm: tất cả thông tin kể cả thâm niên và phụ cấp thâm niên
-        public void ShowEmpInfo_3()
-        {
-            base.ShowEmpInfo_3();
-        }*/
-
 
     }
 }

@@ -60,6 +60,7 @@ namespace Bai1
         //Phương thức tạo Email của nhân viên
         private string getEmail(List<VingroupEmployee> employees, FullName fullName, DateTime birthDate)
         {
+            //Hoang Minh Tri
             var emailStr = "";
             string nameRemoveAccents = RemoveAccents(fullName.ToString());
             var names = nameRemoveAccents.Split(' ');//Tách tên thành mảng các chữ

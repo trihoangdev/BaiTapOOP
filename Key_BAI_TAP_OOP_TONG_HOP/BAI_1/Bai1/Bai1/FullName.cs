@@ -9,7 +9,7 @@ namespace Bai1
     //Lớp mô tả thông tin họ và tên
     public class FullName
     {
-
+        //Hoàng Minh Cao Trí -> FirstName:Trí, MidName: Minh, LastName: Hoàng
         public string FirstName { get; set; }   //Tên
         public string MidName { get; set; }     //Đệm
         public string LastName { get; set; }    //Họ

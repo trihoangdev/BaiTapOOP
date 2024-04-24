@@ -17,7 +17,6 @@ namespace Bai1
         {
             BaseSalary = 1_400_000;
             CoefficientSalary = coefficientSalary;
-            
         }
         //Phương thức xét danh hiệu Vingroup
         protected abstract string GetAwardVingroup();

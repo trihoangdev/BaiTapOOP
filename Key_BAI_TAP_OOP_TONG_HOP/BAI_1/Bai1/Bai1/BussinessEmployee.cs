@@ -31,15 +31,14 @@ namespace Bai1
         //Phương thức xét loại
         private string GetClassificMonth(int minSale, int saleMonth)
         {
-            if (minSale > 2 * saleMonth)
+            if (saleMonth > 2 * minSale )
                 return "A";
-            else if (minSale >= saleMonth)
+            else if (saleMonth >= minSale)
                 return "B";
-            else if (minSale > 0.5 * saleMonth)
+            else if (saleMonth > 0.5 * minSale)
                 return "C";
             else
                 return "D";
-
         }
 
         //Phương thức tính hoa hồng

@@ -17,10 +17,10 @@ namespace Bai1
             : base(employees, fullName, birthDate, address, gender,
                   phone, startDate, coefficientSalary)
         {
+            NumOfDayOff = numOfDayOff;
             ClassificMonth = GetClassificMonth(NumOfDayOff);
             Salary = CalculateSalary();
             AllowanceCoefficient = 0.1f;
-            NumOfDayOff = numOfDayOff;
             AwardVincom = GetAwardVincom();
             AwardVingroup = GetAwardVingroup();
         }
