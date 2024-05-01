@@ -1,0 +1,626 @@
+{
+  "Users": [
+    {
+      "TotalPrice": 2088500.0,
+      "Id": "KH1",
+      "Username": "ngocanh123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Anh",
+        "LastName": "Phan",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987334122",
+      "Status": true,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 2398500.0,
+      "Id": "KH2",
+      "Username": "quocanh123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Anh",
+        "LastName": "Phan",
+        "MidName": "Quốc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987334100",
+      "Status": true,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 0.0,
+      "Id": "KH3",
+      "Username": "nhatanh123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Anh",
+        "LastName": "Lê",
+        "MidName": "Nhật"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987994100",
+      "Status": false,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 0.0,
+      "Id": "KH4",
+      "Username": "ngoclinh123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Linh",
+        "LastName": "Lê",
+        "MidName": "Tống Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987998721",
+      "Status": false,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 0.0,
+      "Id": "KH5",
+      "Username": "thaibao123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Bảo",
+        "LastName": "Lê",
+        "MidName": "Thái"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987998788",
+      "Status": false,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 0.0,
+      "Id": "KH6",
+      "Username": "thaicong123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Công",
+        "LastName": "Lê",
+        "MidName": "Thái"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987998766",
+      "Status": false,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 0.0,
+      "Id": "KH7",
+      "Username": "thaivu123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Thái",
+        "LastName": "Vũ",
+        "MidName": "Phạm Đình"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987998766",
+      "Status": false,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 0.0,
+      "Id": "KH8",
+      "Username": "danvu123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Đan",
+        "LastName": "Vũ",
+        "MidName": "Phạm Đình"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987990966",
+      "Status": false,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 0.0,
+      "Id": "KH9",
+      "Username": "anlan123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Lan",
+        "LastName": "Hoàng",
+        "MidName": "Ngọc An"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987990955",
+      "Status": false,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 0.0,
+      "Id": "KH10",
+      "Username": "oanh123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Oanh",
+        "LastName": "Võ",
+        "MidName": "Trương Hoàng"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987990955",
+      "Status": false,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 0.0,
+      "Id": "KH11",
+      "Username": "camly123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Ly",
+        "LastName": "Hoàng",
+        "MidName": "Cẩm"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812455",
+      "Status": false,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 1382500.0,
+      "Id": "KH12",
+      "Username": "phuocvu123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Phước",
+        "LastName": "Vũ",
+        "MidName": "Đình"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812499",
+      "Status": true,
+      "Type": "Thường"
+    },
+    {
+      "TotalPrice": 3347550.0,
+      "Id": "KH13",
+      "Username": "tri123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Trí",
+        "LastName": "Hoàng",
+        "MidName": "Minh"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0792352701",
+      "Status": true,
+      "Type": "VIP"
+    }
+  ],
+  "Drivers": [
+    {
+      "DriverReceived": 38950.0,
+      "BookingFee": 3500.0,
+      "Bonus": 0.0,
+      "Id": "DR1",
+      "Username": "congle123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Công",
+        "LastName": "Lê",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812409",
+      "Status": false,
+      "Type": "Xe gắn máy"
+    },
+    {
+      "DriverReceived": 95950.0,
+      "BookingFee": 10100.0,
+      "Bonus": 0.0,
+      "Id": "DR2",
+      "Username": "khoinguyen123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Khởi",
+        "LastName": "Nguyễn",
+        "MidName": "Quang"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812455",
+      "Status": false,
+      "Type": "Xe gắn máy"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 6550.0,
+      "Bonus": 0.0,
+      "Id": "DR3",
+      "Username": "lamnguyen123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Lâm",
+        "LastName": "Nguyễn",
+        "MidName": "Quang"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812400",
+      "Status": false,
+      "Type": "Xe gắn máy"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 12650.0,
+      "Bonus": 0.0,
+      "Id": "DR4",
+      "Username": "lamquach123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Lâm",
+        "LastName": "Quách",
+        "MidName": "Hà"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987888030",
+      "Status": false,
+      "Type": "Xe gắn máy"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR5",
+      "Username": "nhile123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Nhi",
+        "LastName": "Lê",
+        "MidName": "Thị Yến"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987888099",
+      "Status": false,
+      "Type": "Xe gắn máy"
+    },
+    {
+      "DriverReceived": 70200.0,
+      "BookingFee": 7800.0,
+      "Bonus": 0.0,
+      "Id": "DR6",
+      "Username": "quanglam123",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Lâm",
+        "LastName": "Nguyễn",
+        "MidName": "Quang"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987888099",
+      "Status": false,
+      "Type": "Xe ô tô (4 chỗ)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 14100.0,
+      "Bonus": 0.0,
+      "Id": "DR7",
+      "Username": "quanganh1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Anh",
+        "LastName": "Nguyễn",
+        "MidName": "Quang"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987888043",
+      "Status": false,
+      "Type": "Xe ô tô (4 chỗ)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR8",
+      "Username": "quangkhoi1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Khởi",
+        "LastName": "Nguyễn",
+        "MidName": "Quang"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987888088",
+      "Status": false,
+      "Type": "Xe ô tô (4 chỗ)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR9",
+      "Username": "quangbao1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Bảo",
+        "LastName": "Nguyễn",
+        "MidName": "Quang"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987888066",
+      "Status": false,
+      "Type": "Xe ô tô (4 chỗ)"
+    },
+    {
+      "DriverReceived": 211050.0,
+      "BookingFee": 68005.0,
+      "Bonus": 0.0,
+      "Id": "DR10",
+      "Username": "lamduong1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Dương",
+        "LastName": "Nguyễn",
+        "MidName": "Lâm"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987857066",
+      "Status": false,
+      "Type": "Xe ô tô (4 chỗ)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR11",
+      "Username": "laman1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "An",
+        "LastName": "Nguyễn",
+        "MidName": "Lâm"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987857088",
+      "Status": false,
+      "Type": "Xe ô tô (4 chỗ)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR12",
+      "Username": "thaiduong1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Dương",
+        "LastName": "Nguyễn",
+        "MidName": "Thái"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987857088",
+      "Status": false,
+      "Type": "Xe ô tô (4 chỗ)"
+    },
+    {
+      "DriverReceived": 48600.0,
+      "BookingFee": 5400.0,
+      "Bonus": 0.0,
+      "Id": "DR13",
+      "Username": "phuocnguyen1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Phước",
+        "LastName": "Nguyễn",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812088",
+      "Status": false,
+      "Type": "Xe ô tô (4 chỗ)"
+    },
+    {
+      "DriverReceived": 192600.0,
+      "BookingFee": 64200.0,
+      "Bonus": 0.0,
+      "Id": "DR14",
+      "Username": "lamnguyen1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Lâm",
+        "LastName": "Nguyễn",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812012",
+      "Status": false,
+      "Type": "Xe ô tô (7 chỗ)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 27700.0,
+      "Bonus": 0.0,
+      "Id": "DR15",
+      "Username": "thanhnguyen1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Thành",
+        "LastName": "Nguyễn",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812017",
+      "Status": false,
+      "Type": "Xe ô tô (7 chỗ)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR16",
+      "Username": "tringuyen1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Trí",
+        "LastName": "Nguyễn",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812019",
+      "Status": false,
+      "Type": "Xe ô tô (7 chỗ)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR17",
+      "Username": "quocnguyen1234",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Quốc",
+        "LastName": "Nguyễn",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812020",
+      "Status": false,
+      "Type": "Xe ô tô tải (<=3 tấn)"
+    },
+    {
+      "DriverReceived": 790500.0,
+      "BookingFee": 139500.0,
+      "Bonus": 0.0,
+      "Id": "DR18",
+      "Username": "anhnguyen1237",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Anh",
+        "LastName": "Nguyễn",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812021",
+      "Status": false,
+      "Type": "Xe ô tô tải (<=3 tấn)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 150000.0,
+      "Bonus": 0.0,
+      "Id": "DR19",
+      "Username": "binhnguyen1237",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Bình",
+        "LastName": "Nguyễn",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812021",
+      "Status": false,
+      "Type": "Xe ô tô tải (<=3 tấn)"
+    },
+    {
+      "DriverReceived": 790500.0,
+      "BookingFee": 268500.0,
+      "Bonus": 0.0,
+      "Id": "DR20",
+      "Username": "cuongnguyen1237",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Cường",
+        "LastName": "Nguyễn",
+        "MidName": "Ngọc"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812024",
+      "Status": false,
+      "Type": "Xe ô tô tải (<=3 tấn)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 66000.0,
+      "Bonus": 0.0,
+      "Id": "DR21",
+      "Username": "cuongnguyen1237",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Đại",
+        "LastName": "Nguyễn",
+        "MidName": "Trường"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812025",
+      "Status": false,
+      "Type": "Xe ô tô tải (<=3 tấn)"
+    },
+    {
+      "DriverReceived": 680000.0,
+      "BookingFee": 387000.0,
+      "Bonus": 0.0,
+      "Id": "DR22",
+      "Username": "tuannguyen1237",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Tuân",
+        "LastName": "Nguyễn",
+        "MidName": "Trường"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812025",
+      "Status": false,
+      "Type": "Xe ô tô tải (>3 tấn)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR23",
+      "Username": "tuannguyen1238",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Tuấn",
+        "LastName": "Nguyễn",
+        "MidName": "Trường"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812026",
+      "Status": false,
+      "Type": "Xe ô tô tải (>3 tấn)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR24",
+      "Username": "trungnguyen1238",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Trung",
+        "LastName": "Nguyễn",
+        "MidName": "Trường"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812027",
+      "Status": false,
+      "Type": "Xe ô tô tải (>3 tấn)"
+    },
+    {
+      "DriverReceived": 0.0,
+      "BookingFee": 0.0,
+      "Bonus": 0.0,
+      "Id": "DR25",
+      "Username": "quocnguyen1238",
+      "Password": "123",
+      "FullName": {
+        "FirstName": "Quốc",
+        "LastName": "Nguyễn",
+        "MidName": "Trường"
+      },
+      "AvatarPath": "",
+      "PhoneNumber": "0987812028",
+      "Status": false,
+      "Type": "Xe ô tô tải (>3 tấn)"
+    }
+  ]
+}
